@@ -14,6 +14,7 @@ export default {
           DEFAULT: '#76979C',
           dark: '#3C3D40',
         },
+        highlight: '#4C8891',
       },
       screens: {
         xs: '460px',
