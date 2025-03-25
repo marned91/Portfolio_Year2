@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio - showcasing my frontend work"
+    />
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/favicon" href="assets/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    class="min-h-screen grid grid-rows-[auto_1fr_auto] overflow-x-hidden w-screen"
+  >
+    <header>
+      <div
+        class="bg-brand m-auto w-[80%] p-4 mt-5 rounded-full flex justify-between items-center"
+      >
+        <div>
+          <a href="index.html">
+            <img
+              src="assets/portfolio-high-resolution-logo-transparent-white.png"
+              alt="My Portfolio logo"
+              class="w-[60%] h-auto pl-10"
+            />
+          </a>
+        </div>
+        <div class="text-white font-headerFooter font-light">
+          <nav>
+            <ul class="flex gap-7 pr-10 items-center">
+              <li
+                class="block py-1 px-2 font-medium relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-white"
+              >
+                <a href="index.html">HOME</a>
+              </li>
+              <li
+                class="block py-1 px-2 font-medium relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all hover:after:w-full"
+              >
+                <a href="about.html">ABOUT</a>
+              </li>
+              <li
+                class="block bg-black py-2 px-4 rounded-3xl font-medium transition-all hover:bg-white hover:text-black"
+              >
+                <a href="https://github.com/marned91">GITHUB PROFILE</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="flex m-auto w-[70%] items-center mt-20">
+        <div>
+          <h1 class="font-largeFont text-4xl mb-5">Welcome To My Portfolio</h1>
+          <p class="font-smallFont font-light w-lg mb-2">
+            Thank you for visiting my portfolio! Here, you'll find projects that
+            highlight my skills as a frontend developer, from responsive web
+            designs to interactive JavaScript features.
+          </p>
+          <p class="font-smallFont font-light">
+            Feel free to explore and reach out if you're interested in
+            collaborating!
+          </p>
+        </div>
+        <div>
+          <img
+            src="assets/home-illustration.png"
+            alt="Drawn illustration of woman walking in front of schedules, plants, devices"
+            class="w-full h-auto"
+          />
+        </div>
+      </div>
+      <div class="bg-brand-light p-20 mt-5"></div>
+    </main>
+    <footer class="bg-brand-dark py-6 mt-20 text-center text-white text-sm">
+      <div
+        class="w-[80%] m-auto flex flex-col sm:flex-row justify-between items-center gap-4"
+      >
+        <img
+          src="assets/portfolio-high-resolution-logo-transparent-white.png"
+          alt="Logo"
+          class="w-24 h-auto opacity-80"
+        />
+        <p>&copy; 2025 Marned91. All rights reserved.</p>
+        <div class="flex gap-4">
+          <a
+            href="https://github.com/marned91"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <img src="assets/GitHub.png" alt="GitHub" class="w-8 h-8" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/marte-n-18aab5101/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <img src="assets/LinkedIn.png" alt="LinkedIn" class="w-8 h-8" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

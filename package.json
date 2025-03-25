@@ -1,0 +1,24 @@
+{
+  "name": "portfolio_year2",
+  "version": "1.0.0",
+  "description": "A personal portfolio website showcasing my frontend development skills and projects, learned at Noroff",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch",
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/style.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marned91/Portfolio_Year2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marned91/Portfolio_Year2/issues"
+  },
+  "homepage": "https://github.com/marned91/Portfolio_Year2#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
