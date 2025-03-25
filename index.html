@@ -16,7 +16,7 @@
   >
     <header>
       <div
-        class="bg-brand m-auto w-[80%] p-3 mt-5 rounded-full flex justify-between items-center"
+        class="bg-brand m-auto w-[80%] lg-w-[70%] p-3 mt-5 rounded-full flex justify-between items-center"
       >
         <div>
           <a href="index.html">
@@ -31,17 +31,17 @@
           <nav>
             <ul class="flex gap-7 pr-10 items-center">
               <li
-                class="block py-1 px-2 font-medium relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-white"
+                class="block py-1 px-2 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-white"
               >
                 <a href="index.html">HOME</a>
               </li>
               <li
-                class="block py-1 px-2 font-medium relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all hover:after:w-full"
+                class="block py-1 px-2 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-white after:transition-all hover:after:w-full"
               >
                 <a href="about.html">ABOUT</a>
               </li>
               <li
-                class="block bg-black py-2 px-4 rounded-3xl font-medium transition-all hover:bg-white hover:text-black"
+                class="block bg-black py-2 px-4 rounded-3xl transition-all hover:bg-white hover:text-black"
               >
                 <a href="https://github.com/marned91">GITHUB PROFILE</a>
               </li>
@@ -51,7 +51,7 @@
       </div>
     </header>
     <main>
-      <div class="flex m-auto w-[70%] items-center mt-20">
+      <section class="flex m-auto w-[70%] items-center mt-10">
         <div>
           <h1 class="font-largeFont text-4xl mb-5">Welcome To My Portfolio</h1>
           <p class="font-smallFont font-light w-lg mb-2">
@@ -71,35 +71,61 @@
             class="w-full h-auto"
           />
         </div>
-      </div>
-      <section class="bg-brand-light p-20 mt-5">
-      <div class="m-auto w-[80%]">
+      </section>
+      <section class="bg-brand-light p-20">
+      <div class="m-auto w-[90%] md:w-[80%]">
         <h2 class="font-largeFont text-3xl font-light">My Projects</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-7">
-          <div class="bg-white rounded-xl p-5">
-            <img src="assets/Semester-project2.png" alt="screenshot of semester project 2 page" class="w-full h-48 object-cover">
-            <h3 class="font-largeFont text-xl pt-5">Auction Website - Semester project 2</h3>
-            <p class="font-smallFont pt-4 text-sm font-light">A responsive frontend auction platform where users can register, list items with images, place bids using credits, and update their profile avatars. Built with Tailwind CSS and the Noroff Auction API.</p>
-            <p class= "font-smallFont text-sm pt-2 font-light">Designed in Figma, planned with GitHub Projects, and hosted on Netlify.</p>
-            <div class="flex gap-3 pt-5">
+        <div class="grid grid-cols-1 md:grid-cols-2  xl:grid-cols-3 mt-10 gap-5">
+          <div class="bg-white rounded-xl p-5 flex flex-col justify-between min-h-[550px]">
+            <img src="assets/Semester-project2.png" alt="screenshot of semester project 2 page" class="w-full h-56 object-cover">
+            <h3 class="font-largeFont text-xl mt-5">Auction Website - Semester project 2</h3>
+            <p class="font-smallFont pt-4 text-sm font-light">This project is a front-end web application built using Vite, Tailwind CSS, HTML, and JavaScript with a simple routing system to handle multiple views. It showcases a fully functional auction platform where users can register, create listings with media, place bids using credits, and manage their profiles. The application connects to the Noroff Auction API and demonstrates skills developed during the second semester of the frontend development program</p>
+            <div class="flex gap-3 pt-5 mt-auto">
               <a href="https://github.com/marned91/ReUze-SP2" class="bg-brand-dark text-white px-4 py-2 rounded-md text-sm font-medium transition transform hover:scale-105 hover:bg-highlight">GitHub Repo</a>
               <a href="https://reuze.netlify.app/" class="bg-brand-dark text-white px-4 py-2 rounded-md text-sm font-medium transition transform hover:scale-105 hover:bg-highlight">Live Site</a>
             </div>
           </div>
-                    <div class="bg-white rounded-xl p-5">
-            <img src="assets/Project-exam1.png" alt="screenshot of Project Exam 1 page" class="w-full h-48 object-cover">
-            <h3 class="font-largeFont text-xl pt-5">Auction Website - Semester project 2</h3>
-            <p class="font-smallFont pt-4 text-sm font-light">A responsive frontend auction platform where users can register, list items with images, place bids using credits, and update their profile avatars. Built with Tailwind CSS and the Noroff Auction API.</p>
-            <p class= "font-smallFont text-sm pt-2 font-light">Designed in Figma, planned with GitHub Projects, and hosted on Netlify.</p>
-            <div class="flex gap-3 pt-5">
-              <a href="https://github.com/marned91/ReUze-SP2" class="bg-brand-dark text-white px-4 py-2 rounded-md text-sm font-medium transition transform hover:scale-105 hover:bg-highlight">GitHub Repo</a>
-              <a href="https://reuze.netlify.app/" class="bg-brand-dark text-white px-4 py-2 rounded-md text-sm font-medium transition transform hover:scale-105 hover:bg-highlight">Live Site</a>
+          <div class="bg-white rounded-xl p-5 flex flex-col justify-between min-h-[550px]">
+            <img src="assets/Project-exam1.png" alt="screenshot of Project Exam 1 page" class="w-full h-56 object-cover">
+            <h3 class="font-largeFont text-xl mt-5">Blog Website - project Exam 1</h3>
+            <p class="font-smallFont pt-4 text-sm font-light"> This project is a front-end web app designed to showcase a
+                dynamic blog platform. Built with HTML, CSS, and JavaScript, it
+                serves as a demonstration of the skills acquired in the FED1
+                program. Users can view and interact with posts while the owner
+                has management capabilities.</p>
+            <div class="flex gap-3 pt-5 mt-auto">
+              <a href="https://github.com/marned91/FED1-PE1" class="bg-brand-dark text-white px-4 py-2 rounded-md text-sm font-medium transition transform hover:scale-105 hover:bg-highlight">GitHub Repo</a>
+              <a href="https://marned91.github.io/FED1-PE1/" class="bg-brand-dark text-white px-4 py-2 rounded-md text-sm font-medium transition transform hover:scale-105 hover:bg-highlight">Live Site</a>
             </div>
           </div>
-          <div></div>
-          <div></div>
+          <div class="bg-white rounded-xl p-5 flex flex-col justify-between min-h-[550px]">
+            <img src="assets/Cross-course-project.png" alt="screenshot of Cross Course Project page" class="w-full h-56 object-cover">
+            <h3 class="font-largeFont text-xl mt-5">Online Store - Cross-Course Project</h3>
+            <p class="font-smallFont pt-4 text-sm font-light"> This project is a front-end online store allowing users to
+                browse rain jackets, view details, add items to a cart, and
+                complete checkout. Initially developed with HTML and CSS, it was
+                later enhanced with JavaScript for interactive functionality,
+                ensuring a user-friendly experience.</p>
+            <div class="flex gap-3 pt-5 mt-auto">
+              <a href="https://github.com/marned91/Cross-course-project" class="bg-brand-dark text-white px-4 py-2 rounded-md text-sm font-medium transition transform hover:scale-105 hover:bg-highlight">GitHub Repo</a>
+              <a href="https://marned91.github.io/Cross-course-project/" class="bg-brand-dark text-white px-4 py-2 rounded-md text-sm font-medium transition transform hover:scale-105 hover:bg-highlight">Live Site</a>
+            </div>
+          </div>
+                <div class="bg-white rounded-xl p-5 flex flex-col justify-between min-h-[550px]">
+            <img src="assets/Semester-project1.png" alt="screenshot of Semester Project 1 page" class="w-full h-56 object-cover">
+            <h3 class="font-largeFont text-xl mt-5">Science Museum - Semester Project 1</h3>
+            <p class="font-smallFont pt-4 text-sm font-light">This project is a front-end website for the fictional Community
+                Science Museum, built with HTML and CSS without frameworks. It
+                engages a younger audience and offers a clean, device-friendly
+                design without being overly childish, enhancing user experience.</p>
+            <div class="flex gap-3 pt-5 mt-auto">
+              <a href="https://github.com/marned91/Semester-Project" class="bg-brand-dark text-white px-4 py-2 rounded-md text-sm font-medium transition transform hover:scale-105 hover:bg-highlight">GitHub Repo</a>
+              <a href="https://marned91.github.io/Semester-Project/" class="bg-brand-dark text-white px-4 py-2 rounded-md text-sm font-medium transition transform hover:scale-105 hover:bg-highlight">Live Site</a>
+            </div>
+          </div>
         </div>
       </div>
+      </section>
     </main>
     <footer class="bg-brand-dark py-6 mt-20 text-center text-white text-sm">
       <div
