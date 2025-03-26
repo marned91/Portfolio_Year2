@@ -720,6 +720,22 @@ video {
   width: 24rem !important;
 }
 
+.w-\[100px\]{
+  width: 100px !important;
+}
+
+.w-\[300px\]{
+  width: 300px !important;
+}
+
+.w-\[550px\]{
+  width: 550px !important;
+}
+
+.w-\[75\%\]{
+  width: 75% !important;
+}
+
 .flex-1{
   flex: 1 1 0% !important;
 }
